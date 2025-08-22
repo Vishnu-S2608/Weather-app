@@ -19,3 +19,30 @@ It fetches real-time weather data from the [OpenWeatherMap API](https://openweat
 ```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
+```
+Open the folder in Visual Studio Code.
+
+Install the following extensions (recommended):
+
+Live Server
+ → To run your app locally.
+
+Prettier
+ → For clean code formatting.
+
+ Run the App
+
+Right-click on index.html → Open with Live Server.
+
+The app will open in your browser (default: http://127.0.0.1:5500/).
+
+🔑 Get Your OpenWeather API Key
+
+Go to OpenWeatherMap
+ and create a free account.
+
+Generate your API key from the API keys section.
+
+Replace the API key in script.js:
+
+const apiKey = "YOUR_API_KEY_HERE";
